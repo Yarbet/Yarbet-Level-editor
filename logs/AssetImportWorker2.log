@@ -1,0 +1,454 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'es' Physical Memory: 32691 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/isil/Ciclo V/Herramientas para VDJG/LevelCreatorToolsFinal
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60889
+Successfully changed project path to: D:/isil/Ciclo V/Herramientas para VDJG/LevelCreatorToolsFinal
+D:/isil/Ciclo V/Herramientas para VDJG/LevelCreatorToolsFinal
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 29.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/isil/Ciclo V/Herramientas para VDJG/LevelCreatorToolsFinal/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   NVIDIA
+    VRAM:     11041 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005041 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 27.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (588ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (410ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002879 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (47.3 KB). Loaded Objects now: 2158.
+Memory consumption went from 72.5 MB to 72.4 MB.
+Total: 3.198600 ms (FindLiveObjects: 0.225500 ms CreateObjectMapping: 0.037100 ms MarkObjects: 2.827300 ms  DeleteObjects: 0.107200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58212.554461 seconds.
+  path: Assets/Resources/MapParts/Tree.prefab
+  artifactKey: Guid(ac67d2c23f365174b8603db01a326405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MapParts/Tree.prefab using Guid(ac67d2c23f365174b8603db01a326405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9093ca83f82c36f03f910a91d336f09') in 0.287641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.164526 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(82d96449a30433a4ebd565dde82aab5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(82d96449a30433a4ebd565dde82aab5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdecd5862ca85c72202fa3d4672580c0') in 0.006237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001314 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/Materials/Material.006.mat
+  artifactKey: Guid(a54966cb031319841b02f62ce0745806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/Materials/Material.006.mat using Guid(a54966cb031319841b02f62ce0745806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbf1b4c1f1ff9652fedf991915f078e') in 0.112045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001116 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/ChickenBrown.fbx
+  artifactKey: Guid(7bad4e7c89be10a4083226108ffcab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/ChickenBrown.fbx using Guid(7bad4e7c89be10a4083226108ffcab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bd366014db14d0dec35cd609e52b12') in 0.031178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002375 seconds.
+  path: Assets/Editor/GridMapCreator.cs
+  artifactKey: Guid(e70268ffefc04864e9279fae70afb327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/GridMapCreator.cs using Guid(e70268ffefc04864e9279fae70afb327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1472f98634817fe79e6af3f2d5fe066b') in 0.012153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060268 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(5d82328d67beb1a49b6154337d0f9fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(5d82328d67beb1a49b6154337d0f9fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7af8721f8f8cf927552cf89cd809eb') in 0.005628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004078 seconds.
+  path: Assets/Materials/_color2.mat
+  artifactKey: Guid(253f8eab6dad4914391ee102c3828581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/_color2.mat using Guid(253f8eab6dad4914391ee102c3828581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c629523d8e9855a080791f1ada550ce5') in 0.011168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004593 seconds.
+  path: Assets/Scripts/Node.cs
+  artifactKey: Guid(152112951040b464ebf48ff7df489fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Node.cs using Guid(152112951040b464ebf48ff7df489fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c827a6695b099d20fd7cf4af50d5830e') in 0.005777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004208 seconds.
+  path: Assets/Resources/IconTex/Chickenn.png
+  artifactKey: Guid(d40fad23b35a8994a9f19e42ddd5b9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/IconTex/Chickenn.png using Guid(d40fad23b35a8994a9f19e42ddd5b9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f34ac3821bc42c47dd7541f4a421254') in 0.016691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006176 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7873b6fb9eeca4de25903c800c4fa835') in 0.005842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012411 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/Materials/Material.009.mat
+  artifactKey: Guid(5e9322e29619a9644b21049afb772a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/Materials/Material.009.mat using Guid(5e9322e29619a9644b21049afb772a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606a40b856418aa21b8248c0fec8159f') in 0.011562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002443 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes
+  artifactKey: Guid(a6ef2755a6b574604ade3c2a47d9d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes using Guid(a6ef2755a6b574604ade3c2a47d9d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923bc87359df72c01e3f36d2a0ef5f03') in 0.005240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004205 seconds.
+  path: Assets/textures/tutoialAssets.FBX
+  artifactKey: Guid(a36c91237b016174c9754aa89d2a8bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/tutoialAssets.FBX using Guid(a36c91237b016174c9754aa89d2a8bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dabbffc025f1c03b4f65a6b79c7a25') in 0.062296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004614 seconds.
+  path: Assets/Scripts/PartScripts.cs
+  artifactKey: Guid(580f73e8e99347846ab964947fd806b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PartScripts.cs using Guid(580f73e8e99347846ab964947fd806b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c422553efae5d10f07b60a6e8b15851') in 0.005780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004193 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Fir_Tree.fbx
+  artifactKey: Guid(d7ad634caa1c049d49b730cc6d29c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Fir_Tree.fbx using Guid(d7ad634caa1c049d49b730cc6d29c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76892938c625ccd5870fa36fc82ca519') in 0.015279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005359 seconds.
+  path: Assets/textures
+  artifactKey: Guid(fe2433eb4e1760047803fd14dc02bbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures using Guid(fe2433eb4e1760047803fd14dc02bbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff74240628d260ef60e115d3924129a') in 0.006025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004436 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat
+  artifactKey: Guid(af65c0942482e46aeb256506726ff0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat using Guid(af65c0942482e46aeb256506726ff0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d85c45dcddbc3aae09904832313ce8') in 0.011196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004544 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/Materials/Material.008.mat
+  artifactKey: Guid(d504a1572460b5f4a945ce1529a4ab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/Materials/Material.008.mat using Guid(d504a1572460b5f4a945ce1529a4ab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0c742956477ea9777b049fbed3a70a') in 0.010722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004478 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/SheepWhite.fbx
+  artifactKey: Guid(5d8504897ce36db4ea5e50f018657780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/SheepWhite.fbx using Guid(5d8504897ce36db4ea5e50f018657780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9030262add4b38994c1268626da3655d') in 0.016861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004807 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/Materials/phong2.mat
+  artifactKey: Guid(bc01d039e38479541b4484f688750f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/Materials/phong2.mat using Guid(bc01d039e38479541b4484f688750f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed88b6e4aa9d94059bb701b39d231cd') in 0.010507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002210 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Materials
+  artifactKey: Guid(d40899a84663b4ed1885d99c68c31518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Materials using Guid(d40899a84663b4ed1885d99c68c31518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307f1dce87a6240625be85d1b50d3d68') in 0.001972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001716 seconds.
+  path: Assets/Resources/IconTex
+  artifactKey: Guid(ca96e215b6fb585458af6ea180e4151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/IconTex using Guid(ca96e215b6fb585458af6ea180e4151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5fa40e956f5bdf0e843e26e893f91c') in 0.005091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004089 seconds.
+  path: Assets/VertexColorFarmAnimals/Materials/VertexColorUnlit.mat
+  artifactKey: Guid(b83d3bf75db8f704fb67e55cf64a537f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Materials/VertexColorUnlit.mat using Guid(b83d3bf75db8f704fb67e55cf64a537f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae9c5c12eb4c901f07d5d88c95c54b9') in 0.010591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005133 seconds.
+  path: Assets/Scripts/StyleManager.cs
+  artifactKey: Guid(7e23c4c74406c654b8512768dd746d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StyleManager.cs using Guid(7e23c4c74406c654b8512768dd746d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed54fe25999bcdd44c3a0a1fcafc7d2') in 0.005339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010533 seconds.
+  path: Assets/VertexColorFarmAnimals/Shaders
+  artifactKey: Guid(51b946318e4448f429baeaa38bfa114d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Shaders using Guid(51b946318e4448f429baeaa38bfa114d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5ca726abf662525697c96dfc396178') in 0.004545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002216 seconds.
+  path: Assets/Darth_Artisan/Free_Trees
+  artifactKey: Guid(b7aee0f11d1aa466daa952466d59cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees using Guid(b7aee0f11d1aa466daa952466d59cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276abc18ee99cae21a465ca6bc1da1bc') in 0.005741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004033 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Palm_Tree.fbx
+  artifactKey: Guid(1e50ef3048667495d90210b70c070c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Palm_Tree.fbx using Guid(1e50ef3048667495d90210b70c070c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313205b193dc8e4c4e1dbf8798cc940d') in 0.014239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002691 seconds.
+  path: Assets/Darth_Artisan
+  artifactKey: Guid(1dda5fe30fd2a42bba9d51692a095c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan using Guid(1dda5fe30fd2a42bba9d51692a095c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340d438d4a56575b123817cf5c71b10b') in 0.005827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004080 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/DuckWhite.fbx
+  artifactKey: Guid(82d0b33fd2ad44744aa557711150e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/DuckWhite.fbx using Guid(82d0b33fd2ad44744aa557711150e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525d629eb55787743617daabc7004184') in 0.014797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002600 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Textures
+  artifactKey: Guid(05c318f3b28d946cea195fb1d77995fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Textures using Guid(05c318f3b28d946cea195fb1d77995fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d76b80c07f7a13629aedc802965b4b4') in 0.005754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004278 seconds.
+  path: Assets/VertexColorFarmAnimals/Shaders/VertexColorUnlit.shader
+  artifactKey: Guid(7f47add854be75641aa506b7aa45db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Shaders/VertexColorUnlit.shader using Guid(7f47add854be75641aa506b7aa45db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4c760eecb583781b84d9969fecb123') in 0.003487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003853 seconds.
+  path: Assets/Resources/IconTex/Lamb.png
+  artifactKey: Guid(ce39e323663b3ce4cac6d6c6298b7edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/IconTex/Lamb.png using Guid(ce39e323663b3ce4cac6d6c6298b7edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74b5196eaba239e797d8c8e8dbee20d') in 0.009094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005051 seconds.
+  path: Assets/Materials/_color1.mat
+  artifactKey: Guid(bc783d5d006971a4db8ebc388f1f57b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/_color1.mat using Guid(bc783d5d006971a4db8ebc388f1f57b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21bdf87a8a5e3d6cbf467a76a6cef93') in 0.010552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004824 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Poplar_Tree.fbx
+  artifactKey: Guid(186ad8f063dbf430da4d56ebc0cb14e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Poplar_Tree.fbx using Guid(186ad8f063dbf430da4d56ebc0cb14e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8e989e321b79e256323fe90cfeefe6') in 0.016550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004777 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/Materials/Material.007.mat
+  artifactKey: Guid(6a4830998e70e6041a138caafb52f7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/Materials/Material.007.mat using Guid(6a4830998e70e6041a138caafb52f7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7e7fe2d5983e376ce6d985b0367b28') in 0.011142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004615 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/Pig.fbx
+  artifactKey: Guid(0b54733d5329ad34db9d1e5fe04739e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/Pig.fbx using Guid(0b54733d5329ad34db9d1e5fe04739e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562a134579bbac38e3be927eb5f65a2a') in 0.015565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002671 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(6099ad16aa809be44bd2741813a29a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(6099ad16aa809be44bd2741813a29a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026dd511d52523fabf113eca4767c3a0') in 0.005378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003901 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/CowBlW.fbx
+  artifactKey: Guid(33bee4529afa2d740bfcc71a4c9f1f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/CowBlW.fbx using Guid(33bee4529afa2d740bfcc71a4c9f1f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464a63d8d052c35448d1394fafde85c5') in 0.015410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002463 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/Materials
+  artifactKey: Guid(552aa364685512e41a2131b0216292ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/Materials using Guid(552aa364685512e41a2131b0216292ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90093605d8daa1aafbaf1216077c203a') in 0.001686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013733 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Materials/No Name.mat
+  artifactKey: Guid(98189d553b7404d8290e447fb600ac6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Materials/No Name.mat using Guid(98189d553b7404d8290e447fb600ac6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ced414e2ee80ee9d0541efa33fa9ebe') in 0.010875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009959 seconds.
+  path: Assets/Resources/IconTex/Cow.png
+  artifactKey: Guid(deb521dff8c951149bcdfa2f1115e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/IconTex/Cow.png using Guid(deb521dff8c951149bcdfa2f1115e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7ea573a9daee3b87d1e239ea336d09') in 0.010264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004246 seconds.
+  path: Assets/Resources/IconTex/Empty.png
+  artifactKey: Guid(38c6dea2efeef0a43b9b50e1cee4d3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/IconTex/Empty.png using Guid(38c6dea2efeef0a43b9b50e1cee4d3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7334ed81f0660555d0452e852ba72629') in 0.009630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002369 seconds.
+  path: Assets/VertexColorFarmAnimals/Materials
+  artifactKey: Guid(3bc65edd3f962f54db82ddd9b9f29aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Materials using Guid(3bc65edd3f962f54db82ddd9b9f29aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0840a9588ccf3c1064f9fe86ace3c88e') in 0.001582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004592 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png
+  artifactKey: Guid(255283d354122406ebf8159c5ea35b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png using Guid(255283d354122406ebf8159c5ea35b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33191227914f847350efccd160cf1299') in 0.009857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004980 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx
+  artifactKey: Guid(6d58037af810b4021ac921a71033e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx using Guid(6d58037af810b4021ac921a71033e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf26079959c07e304e8facb8f41c8503') in 0.015416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002563 seconds.
+  path: Assets/VertexColorFarmAnimals
+  artifactKey: Guid(697cce72344cd5646ab26a1e491e6d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals using Guid(697cce72344cd5646ab26a1e491e6d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe94a3e2c9460165c6136e59abfc3b6d') in 0.005189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001878 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(9828ec49659903e4b8394fee4350cb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(9828ec49659903e4b8394fee4350cb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3e20fa82701a955f10e35b7a1111b4') in 0.005290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002069 seconds.
+  path: Assets/VertexColorFarmAnimals/Models
+  artifactKey: Guid(aae9698b6f96e6a43a02f13368f2d2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models using Guid(aae9698b6f96e6a43a02f13368f2d2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e5f9254260c4ba3cd93dfdacdb1c94') in 0.006096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004615 seconds.
+  path: Assets/Resources/IconTex/Tree.png
+  artifactKey: Guid(6b5154aa9bff6004d8ad7b5a3abed5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/IconTex/Tree.png using Guid(6b5154aa9bff6004d8ad7b5a3abed5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d6adca53961943a0410c1f215726bd') in 0.009824 seconds 
